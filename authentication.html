@@ -1,0 +1,524 @@
+<html>
+<head>
+    <title>Authentication</title>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>
+
+				<table cellpadding="0" cellspacing="0" width="100%">
+					<tbody>
+						<tr>
+							<td><strong>HDFC BANK</strong><strong>&nbsp;&ndash; </strong><strong>Credit &nbsp; &nbsp; Cards</strong><strong>.</strong>
+								<br>
+							</td>
+						</tr>
+					</tbody>
+				</table>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>
+	<br>
+</p>
+
+<p>
+	<br>
+</p>
+
+<p><strong>TITLE</strong><strong>: </strong><strong><u>AUTHENTICATION ON CALL PROCESS</u></strong></p>
+
+<p><strong>DATED:</strong> <strong><u>17<sup>th</sup> AUGUST 2017</u></strong></p>
+
+<p><strong>INDEX No : </strong><strong><u>CCPROCESS170817001</u></strong></p>
+
+<p><strong>Why is the bank progressing with this project?</strong></p>
+
+<p>Currently CBCI system is used for handling customer queries and x-selling post performing successful level checks with the customer. In various processes the customers are required to send in writer requests which customers find inconvenient to provide for any change or modification on their card account. To avoid any inconvenience to the customer &amp; at the same time to a have more robust, authentic &amp; non disputable customer validation process whereby limiting fraudsters intervention, an IVR authentication process has been initiated.</p>
+
+<p>
+	<br>
+</p>
+
+<p><strong><u>SYSTEM LEVEL CHANGES:</u></strong></p>
+
+<p>The CBCI application has been enhanced on 20<sup>th</sup> April 2012 to support this authentication project. Due to this all users would have now noticed certain additional new details displayed on the CBCI screen post login.</p>
+
+<p>
+	<br>
+</p>
+
+<p><strong><u>WHAT IS THE CHANGE NOW DUE TO AUTHENTICATION?</u></strong></p>
+
+<p>Currently actioning of maintenances &amp; x-selling are done on the account post level check verification with the customer. With authentication now live, the customer validation will now be done basis One Time Password (OTP) or ATM PIN which the customer themselves will key in through their phone. Hence the customers are now assured that they account is managed in a more secured manner.</p>
+
+<p><strong><u>SYSTEM LEVEL MAINTENANCE:</u></strong></p>
+
+<p>The AOC process will allow either of the below combinations -</p>
+
+<ol start="1" type="1">
+	<li class="MsoNormal">ATM &nbsp; &nbsp; &nbsp;PIN</li>
+	<li class="MsoNormal">OTP &nbsp; &nbsp; &nbsp;(One Time Password).</li>
+	<li class="MsoNormal">Level &nbsp; &nbsp; &nbsp;Checks</li>
+</ol>
+
+<p>
+	<br>
+</p>
+
+<p>IVR Authentication flag can be set for either the entire call or mapped only for the particular process at link level.</p>
+
+<ul type="disc">
+	<li class="MsoNormal"><strong>Entire &nbsp; &nbsp; &nbsp;Call &ndash;</strong> The authentication result will be &nbsp; &nbsp; &nbsp;valid till the user ends the call.</li>
+	<li class="MsoNormal"><strong>Link &nbsp; &nbsp; &nbsp;Level &ndash;</strong> The validity of authentication &nbsp; &nbsp; &nbsp;result will be only for that particular link.</li>
+</ul>
+
+<p>At PhoneBanking, we will be using both these option while at CVM team the &lsquo;link level&rsquo; option will be used.</p>
+
+<p>
+	<br>
+</p>
+
+<p><strong><u>HOW TO PROCEED WITH AUTHENTICATION:</u></strong></p>
+
+<p>Customer calls PhoneBanking on a query and the process will continue as per the existing level check process. Any maintenance or fulfillment of X-sell product will require the customer to clear the new authentication process before the request can be actioned in CBCI.</p>
+
+<p>
+	<br>
+</p>
+
+<p>Before commencing the authentication process for the customer, the Customer Services Representative will need to check whether the process requires an OTP and / or ATM PIN. (Also should check if the process allows for Level Check option to be used.) &nbsp;This can be identified in the below screen.</p>
+
+<p>
+	<br>
+</p>
+
+<p>
+	<br>
+</p>
+
+<p>Basis the required maintenance, the Customer Services Representative will need to check with the customer if they already have the PIN details with them handy at the moment.</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+<p>For cases where the customer requires an OTP, the Customer Services Representative will need to generate an OTP for the customer by clicking on the below link.</p>
+
+<p>
+	<br>
+</p>
+
+<p>A new pop up will now be displayed for the Customer Services Representative which will mention the last 4 digits of the mobile number to which the OTP will be despatched.</p>
+
+<p>
+	<br>
+</p>
+
+<p>The Customer Services Representative will need to confirm this detail with the customer and then click the OK tab. The OTP will be immediately despatched <u>only to the registered mobile number of the customer</u>. Here the OTP will not be sent to the customer e-mail id like in VBV MS process.</p>
+
+<p>AAN based AOC OTP will be different from that Credit card based AOC OTP.</p>
+
+<p>
+	<br>
+</p>
+
+<ul type="disc">
+	<li class="MsoNormal">Once &nbsp; &nbsp; &nbsp;the authentication OTP is used, the OTP becomes inactive and cannot be &nbsp; &nbsp; &nbsp;used once again.</li>
+	<li class="MsoNormal">If &nbsp; &nbsp; &nbsp;the customer enters the OTP incorrectly, then the customer can use the same &nbsp; &nbsp; &nbsp;OTP once again up to 3 attempts. Post the 3<sup>rd</sup> attempt the OTP &nbsp; &nbsp; &nbsp;becomes invalid.</li>
+</ul>
+
+<p>
+	<br>
+</p>
+
+<p><strong><u>AUTHENTICATION &ndash; CALL PROCESS:</u></strong></p>
+
+<p>Post customer receiving the OTP, the below authentication process can be commenced by the Customer Services Representative &ndash;</p>
+
+<ul type="disc">
+	<li class="MsoNormal">Press &nbsp; &nbsp; &nbsp;the flash button on the phone. Now the customer&rsquo;s line will be on hold and &nbsp; &nbsp; &nbsp;the customer will hear the IVR hold music.</li>
+	<li class="MsoNormal">Now &nbsp; &nbsp; &nbsp;dial the short code (applicable for the respective RCC&#39;s) and the call &nbsp; &nbsp; &nbsp;will get connected to the IVR. Customer is still on hold here.</li>
+	<li class="MsoNormal">The &nbsp; &nbsp; &nbsp;IVR will prompt the team member to enter the caller id as displayed on the &nbsp; &nbsp; &nbsp;CBCI screen. The user will need to enter the caller id followed by the &nbsp; &nbsp; &nbsp;FLASH key.</li>
+</ul>
+
+<p>
+	<br>
+</p>
+
+<ul type="disc">
+	<li class="MsoNormal">On &nbsp; &nbsp; &nbsp;entering the caller id and the FLASH key the customer will be conferenced &nbsp; &nbsp; &nbsp;on the call and the IVR will voice out the welcome script as &ldquo;<em>Welcome to HDFC Credit Card &nbsp; &nbsp; &nbsp;authentication system</em>&rdquo;&nbsp;</li>
+	<li class="MsoNormal">There &nbsp; &nbsp; &nbsp;after the customer will need to follow the IVR prompts and key in the &nbsp; &nbsp; &nbsp;details as required. The Customer Services Representative will remain &nbsp; &nbsp; &nbsp;connected on call and will be in the conference and will be able to hear &nbsp; &nbsp; &nbsp;the customer and the IVR prompts. If required the Customer Services &nbsp; &nbsp; &nbsp;Representative can also speak with the customer and guide the customer on &nbsp; &nbsp; &nbsp;the details that is to be entered.</li>
+</ul>
+
+<p><strong><u>EXTENSION NUMBER NOT TO BE SET IN CBCI:</u></strong></p>
+
+<ul type="disc">
+	<li class="MsoNormal">It is extremely important &nbsp; &nbsp; &nbsp;that the <strong><u>users should not set*</u></strong>&nbsp; &nbsp; &nbsp; extension numbers for their AD ID by clicking <strong>User Detail -&gt; Set &nbsp; &nbsp; &nbsp;Extension</strong> and &nbsp; &nbsp; &nbsp;adding extension number in New Extension field in CBCI.</li>
+</ul>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<ul type="disc">
+	<li class="MsoNormal">If extension numbers are &nbsp; &nbsp; &nbsp;already setup, then the users are required to click on the Set Extension &nbsp; &nbsp; &nbsp;link and click on Submit button. On clicking the Submit button, the Extn &nbsp; &nbsp; &nbsp;number maintained in the system will be removed immediately.</li>
+</ul>
+
+<p>
+	<br>
+</p>
+
+<p>
+	<br>
+</p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>IMPORTANT</u></strong></p>
+
+<ul type="disc">
+	<li class="MsoNormal">The &nbsp; &nbsp; &nbsp;Customer Services Representative must not ask the customer to disclose the &nbsp; &nbsp; &nbsp;PIN details for them to assist the customer by entering the details on &nbsp; &nbsp; &nbsp;behalf of the customer.</li>
+	<li class="MsoNormal">In &nbsp; &nbsp; &nbsp;case if the customer voices out the ATM PIN, then the Customer Services &nbsp; &nbsp; &nbsp;Representative must inform the customer not to voice out the ATM PIN to &nbsp; &nbsp; &nbsp;any person including any bank staffs even if requested to be voiced out. &nbsp; &nbsp; &nbsp;Also inform the customer to change the ATM PIN by accessing any HDFC Bank &nbsp; &nbsp; &nbsp;ATM and retain the details securely.</li>
+	<li class="MsoNormal">Post &nbsp; &nbsp; &nbsp;the customer completes the authentication process, the IVR will confirm on &nbsp; &nbsp; &nbsp;the SUCCESS / FAILURE of authentication.</li>
+	<li class="MsoNormal">In &nbsp; &nbsp; &nbsp;case of Failure of authentication, the customer can reattempt &nbsp; &nbsp; &nbsp;authentication once again if they have the required correct details.</li>
+	<li class="MsoNormal">For &nbsp; &nbsp; &nbsp;SUCCESSFUL authentication, the Customer Services Representative will need &nbsp; &nbsp; &nbsp;to click on the below tab in CBCI post which the maintenance links will &nbsp; &nbsp; &nbsp;open up in CBCI.</li>
+</ul>
+
+<p>
+	<br>
+</p>
+
+<p>
+	<br>
+</p>
+
+<ul type="disc">
+	<li>
+		<br>
+	</li>
+	<li class="MsoNormal">At &nbsp; &nbsp; &nbsp;this point if the Customer Services Representative clicks on the Verify &nbsp; &nbsp; &nbsp;PIN tab, then the below pop up will be displayed. &nbsp;User to click on the &lsquo;verify Auth&rsquo; tab &nbsp; &nbsp; &nbsp;for the maintenance screens to be enabled.</li>
+</ul>
+
+<p>
+	<br>
+</p>
+
+<p>
+	<br>
+</p>
+
+<ul type="disc">
+	<li>
+		<br>
+	</li>
+	<li class="MsoNormal">In case if the card account number &nbsp; &nbsp; &nbsp;or caller id is entered incorrectly, though AOC was voiced as successful &nbsp; &nbsp; &nbsp;by the IVR, an error message as in red (above) will be displayed. Here the &nbsp; &nbsp; &nbsp;Customer Services Representative can either once again do AOC to continue &nbsp; &nbsp; &nbsp;with the call or can use the level check option to continue with the &nbsp; &nbsp; &nbsp;customer&rsquo;s maintenance request by clicking on the LEVEL CHECKS tab. On &nbsp; &nbsp; &nbsp;clicking the level checks tab, the regular level checks screen will open &nbsp; &nbsp; &nbsp;up.</li>
+</ul>
+
+<p>NOTE &ndash; Level check options will be enabled or disabled for the links as per the aligned process.</p>
+
+<p><strong><u>CONTACTABILITY STATUS UPDATES FOR CUSTOMER CALLOUTS:</u></strong></p>
+
+<p>In scenarios where an inbound team member calls the customer for follow-ups and performs any maintenance on card account, then the existing process of updating Contactability status has to be followed. <a href="http://10.226.7.230/elearning/displaychapter.asp?course=PROCESS/18/12-13&subject=SUB2&slno=4&chapter=CHAP4&format=PDF&module=MOD1">CLICK HERE</a> to access the existing chapter on Contactability Status sub-category to be used for customer callouts.</p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>MEMOS</u></strong></p>
+
+<p>Memos capture regarding authentication will be auto captured in CBCI and can be checked in the regular LEVEL CHECK MEMO link under MEMO SUB LINK.</p>
+
+<p>
+	<br>
+</p>
+
+<p>For authentication the category will be displayed as IVR AUTHENTICATION while for level check the category will be displayed as MANDATORY CHECKS.</p>
+
+<p>
+	<br>
+</p>
+
+<p>For authentication, details on whether the authentication was a success or failure can be check in the memo-text column as shown below.</p>
+
+<p>
+	<br>
+</p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>AUDIT TRAIL ON SMS GENERATION:</u></strong></p>
+
+<p>
+	<br>
+</p>
+
+<p>
+	<br>
+</p>
+
+<p>In order to check history of OTP been triggered on the account, the mentioned link can be clicked upon. Post this, the month for which the details are required will need to be selected in the month field. The last 10 months will be available in the dropdown.</p>
+
+<p>
+	<br>
+</p>
+
+<p>Post selecting the month, please select OTP-Request in the REQUEST TYPE field &amp; then click on submit tab.</p>
+
+<p>
+	<br>
+</p>
+
+<p>The below screen will be displayed in which the date, time and phone number to which the SMS was triggered can be checked.</p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>&nbsp;</u></strong></p>
+
+<p><strong><u>AUDIT TRAIL ON OTP USAGE</u></strong></p>
+
+<p>In order to check history of OTP been used on the account, the same link can be clicked upon. Post this, the month for which the details are required will need to be selected in the month field. The last 10 months will be available in the dropdown.</p>
+
+<p>
+	<br>
+</p>
+
+<p>Post selecting the month, please select IVR-Response in the REQUEST TYPE field &amp; then click on submit tab.</p>
+
+<p>
+	<br>
+</p>
+
+<p>The below screen will be displayed in which the date &amp; time when the OTP validation happened. The confirmation status can be checked in the IVR STATUS column where it will be mentioned as SUCCESS / FAILURE.</p>
+
+<p><strong><u>IVR AUTHENTICATION RESPONSE CODES</u></strong></p>
+
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable">
+	<tbody>
+		<tr>
+			<td width="52.35042735042735%"><span class="MsoNormal"><strong>IF ATM PIN USED FOR AUTHENTICATION</strong></span></td>
+			<td width="47.64957264957265%"><span class="MsoNormal"><strong>IF OTP USED FOR AUTHENTICATION</strong></span></td>
+		</tr>
+		<tr>
+			<td width="52.35042735042735%">0 &nbsp; &ndash; Approved</td>
+			<td width="47.64957264957265%">00 &ndash; Success</td>
+		</tr>
+		<tr>
+			<td width="52.35042735042735%">14 &ndash; Invalid Card</td>
+			<td width="47.64957264957265%">01 &ndash; Failed</td>
+		</tr>
+		<tr>
+			<td width="52.35042735042735%">91 &ndash; Server error or Processing error</td>
+			<td width="47.64957264957265%">02 &ndash; Invalid Password</td>
+		</tr>
+		<tr>
+			<td width="52.35042735042735%">88 &ndash; PIN failure (PIN Block error)</td>
+			<td width="47.64957264957265%">03 &ndash; Used &amp; Expired Password</td>
+		</tr>
+		<tr>
+			<td width="52.35042735042735%">55 &ndash; Invalid PIN</td>
+			<td width="47.64957264957265%">04 &ndash; Blocked Password</td>
+		</tr>
+		<tr>
+			<td width="52.35042735042735%">91 &ndash; Authentication failure (Time Out)</td>
+			<td width="47.64957264957265%">05 &ndash; Bad Input</td>
+		</tr>
+		<tr>
+			<td width="52.35042735042735%">62 &ndash; Blocked Card</td>
+			<td width="47.64957264957265%">06 &ndash; DB Error</td>
+		</tr>
+		<tr>
+			<td width="52.35042735042735%">54 &ndash; Expired Card</td>
+			<td width="47.64957264957265%">07 &ndash; Internal Server Error</td>
+		</tr>
+		<tr>
+			<td rowspan="4" width="52.35042735042735%">92 &ndash; Routing Problem (Eg &ndash; BIN not present)</td>
+			<td width="47.64957264957265%">08 &ndash; No valid Password in system</td>
+		</tr>
+		<tr>
+			<td width="100%">09 &ndash; Unused &amp; Expired</td>
+		</tr>
+		<tr>
+			<td width="100%">10 &ndash; Blocked link data</td>
+		</tr>
+		<tr>
+			<td width="100%">99 &ndash; General Error</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>
+	<br>
+</p>
+
+<p><strong><u>TALK OFF TO BE USED ON CALL.</u></strong></p>
+
+<p>Sir/ Ma&#39;am, for us to process your request, I will send a One Time Password to your registered mobile number ending XXXX. This is for verification &amp; security of your account.</p>
+
+<p>
+	<br>
+</p>
+
+<p>Please do not disclose this one time password to anyone. When I connect you to the IVR please key in the password using your phone key pad.</p>
+
+<p>
+	<br>
+</p>
+
+<p>May I send the one time password and connect you to the IVR now?</p>
+
+<p>
+	<br>
+</p>
+
+<p><strong>What is this new authentication process?</strong></p>
+
+<p>HDFC Bank Credit Cards has enhanced its systems where in you can now clear security check yourself by providing a dynamic One Time Password. This is to ensure that your account is accessed &amp; maintained only by you. &nbsp;</p>
+
+<p>
+	<br>
+</p>
+
+<p><strong><u>FAQ&rsquo;s:</u></strong></p>
+
+<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable">
+	<tbody>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q1</strong></span></td>
+			<td valign="top" width="92.94871794871794%">What is the validity &nbsp; period of the authentication OTP?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A1</strong></span></td>
+			<td valign="top" width="92.94871794871794%">2 hours from the &nbsp; time of OTP generation</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q2</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Is the authentication OTP and VBV MS OTP the &nbsp; same?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A2</strong></span></td>
+			<td valign="top" width="92.94871794871794%">No, Authentication OTP is a unique OTP and &nbsp; will not be the same as VBS MS OTP.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q3</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Is the authentication &nbsp; OTP and IVR OTP the same?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A3</strong></span></td>
+			<td valign="top" width="92.94871794871794%">No, Authentication &nbsp; OTP is a unique OTP and will not be the same as IVR OTP.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q4</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Where ever there is level check option, can we &nbsp; directly choose this option and proceed with the maintenance / x-sell?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A4</strong></span></td>
+			<td valign="top" width="92.94871794871794%"><span class="MsoHyperlink">Level Check option built in the system to support the customers &nbsp; on their requests where ever the customer is unable to clear authentication &nbsp; either through OTP or ATM PIN. Hence should not be used as a direct option.</span></td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q5</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Who can generate an authentication OTP?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A5</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Authentication OTP can be generated to the &nbsp; customers registered mobile number only through CBCI. There is no option for &nbsp; the customer to generate &nbsp;the &nbsp; authentication OTP by themselves.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q6</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Should customers be advised to call back after &nbsp; they generate an authentication OTP?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A6</strong></span></td>
+			<td valign="top" width="92.94871794871794%">The authentication OTP usually gets delivered &nbsp; to the registered mobile number of the customer in around 5 &ndash; 10 sec. In case &nbsp; of any delays is experienced by the customer in receiving the authentication &nbsp; OTP, then the customer can call back within 2 hours post receiving the &nbsp; authentication OTP.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q7</strong></span></td>
+			<td valign="top" width="92.94871794871794%">In case if the customer calls back within 2 hours &nbsp; for another request to be actioned on the account, then can the same password &nbsp; be used?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A7</strong></span></td>
+			<td valign="top" width="92.94871794871794%">An OTP once used will get inactive, hence the &nbsp; customer will require a new authentication OTP for the new requests.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q8</strong></span></td>
+			<td valign="top" width="92.94871794871794%">What level check must be cleared by the customer &nbsp; for generation of authentication OTP?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A8</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Customer will need to clear level 2 for &nbsp; generation of authentication OTP.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q9</strong></span></td>
+			<td valign="top" width="92.94871794871794%">How can we identify if the authentication link &nbsp; access is provided for a user or not?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A9</strong></span></td>
+			<td valign="top" width="92.94871794871794%">While accessing an account through new contact &nbsp; and when clicking on one of the process link which is enabled for AOC, then &nbsp; the AOC screen will be displayed instead of the regular level checks screen. &nbsp; Eg. COA link</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q10</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Is Level 1 &amp; 2 checks mandatory on every &nbsp; call even when we do authentication for eg.. COA?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A10</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Screens which prompt for level check, will &nbsp; need be cleared by the customer in order for the team member to proceed with &nbsp; the required actions.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q11</strong></span></td>
+			<td valign="top" width="92.94871794871794%">How can we identify if the authentication OTP &nbsp; is valid or not?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A11</strong></span></td>
+			<td valign="top" width="92.94871794871794%">If the customer is not sure if the &nbsp; authentication OTP is valid or not, then the team member can generate a OTP &nbsp; for the customer. If the OTP is the same then the OTP is still valid if not &nbsp; the new OTP can be used.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q12</strong></span></td>
+			<td valign="top" width="92.94871794871794%">How many attempts will the system allow for &nbsp; OTP validation in case if the customer has entered the OTP incorrectly?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A12</strong></span></td>
+			<td valign="top" width="92.94871794871794%">If the customer is not sure if the &nbsp; authentication OTP is valid or not, then the team member can generate a OTP &nbsp; for the customer. If the OTP is the same then the OTP is still valid if not &nbsp; the new OTP can be used.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q13</strong></span></td>
+			<td valign="top" width="92.94871794871794%">In case if the agent enters the wrong caller &nbsp; ID during IVR authentication then can the agent complete the required &nbsp; maintenance for the customer?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A13</strong></span></td>
+			<td valign="top" width="92.94871794871794%">Rights to the agent to do the required &nbsp; maintenance will not be enabled in CBCI.</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>Q14</strong></span></td>
+			<td valign="top" width="92.94871794871794%">If the mobile number is changed on call, will &nbsp; the OTP now be instantly sent to the new updated mobile number?</td>
+		</tr>
+		<tr>
+			<td valign="top" width="7.051282051282051%"><span class="TableContents"><strong>A14</strong></span></td>
+			<td valign="top" width="92.94871794871794%">No. The new mobile number will get updated in &nbsp; the OTP Server only by end of day.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>
+	<br>
+</p>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="http://www.the-art-of-web.com/hilitor.js"></script>
+<script type="text/javascript" src="https://chat.botplatform.io/plugin-v2.js?bot=bot_1502701690319"></script>
+<script type="text/javascript">
+    window.botplatform.init({
+        autoOpen:true
+    });
+</script>
+</body>
+</html>
